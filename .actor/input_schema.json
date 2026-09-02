@@ -1,0 +1,33 @@
+{
+  "title": "B2B Lead Intelligence Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "company_domains": {
+      "title": "Company Domains to Enrich",
+      "type": "array",
+      "description": "List of company domains (e.g. stripe.com, linear.app, supabase.com) to enrich with firmographics and executive leads.",
+      "editor": "stringList",
+      "prefill": [
+        "stripe.com",
+        "linear.app",
+        "supabase.com"
+      ]
+    },
+    "extract_decision_makers": {
+      "title": "Extract Executive Decision Makers",
+      "type": "boolean",
+      "description": "Extract C-Level executives, VP of Engineering, VP of Sales, and verified contact emails.",
+      "default": true,
+      "editor": "checkbox"
+    },
+    "max_leads_per_company": {
+      "title": "Max Leads per Company",
+      "type": "integer",
+      "description": "Number of executive contacts to extract per company domain (1 to 10).",
+      "default": 5,
+      "editor": "number"
+    }
+  },
+  "required": ["company_domains"]
+}

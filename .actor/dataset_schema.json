@@ -1,0 +1,57 @@
+{
+  "actorSpecification": 1,
+  "title": "Dataset schema of B2B Company & Decision-Maker Lead Intelligence Pro",
+  "fields": {
+    "domain": {
+      "type": "string",
+      "description": "Company domain",
+      "example": "stripe.com"
+    },
+    "company_name": {
+      "type": "string",
+      "description": "Company name",
+      "example": "Stripe"
+    },
+    "industry": {
+      "type": "string",
+      "description": "Industry sector",
+      "example": "Financial Infrastructure & B2B Payments"
+    },
+    "headcount_tier": {
+      "type": "string",
+      "description": "Employee headcount range",
+      "example": "500+ employees"
+    },
+    "estimated_arr_tier": {
+      "type": "string",
+      "description": "Estimated annual revenue tier",
+      "example": "$500M+ ARR"
+    },
+    "decision_makers": {
+      "type": "array",
+      "description": "List of executive profiles with verified corporate emails"
+    },
+    "growth_signals": {
+      "type": "array",
+      "description": "Active hiring signals and department expansion trends"
+    }
+  },
+  "views": {
+    "overview": {
+      "title": "Overview",
+      "description": "Enriched company firmographics and decision maker contacts",
+      "transformation": {
+        "fields": [
+          "domain",
+          "company_name",
+          "industry",
+          "headcount_tier",
+          "estimated_arr_tier"
+        ]
+      },
+      "display": {
+        "component": "table"
+      }
+    }
+  }
+}

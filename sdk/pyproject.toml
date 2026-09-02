@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "b2b-lead-intelligence"
+version = "1.0.0"
+description = "B2B Company & Decision-Maker Lead Intelligence SDK."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.25.0",
+    "beautifulsoup4>=4.12.0"
+]

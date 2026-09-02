@@ -1,0 +1,16 @@
+{
+  "actorSpecification": 1,
+  "name": "b2b-lead-intelligence-ai",
+  "title": "B2B Company & Decision-Maker Lead Intelligence Pro",
+  "description": "Real-time B2B firmographics, executive contact finder, verified business email extractor, and hiring signal intelligence for AI SDRs and sales automation.",
+  "version": "1.0.0",
+  "meta": {
+    "category": "LEAD_GENERATION"
+  },
+  "dockerfile": "./Dockerfile",
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  }
+}
