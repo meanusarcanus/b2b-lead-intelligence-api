@@ -1,0 +1,44 @@
+{
+  "campaign": "B2B_Lead_Feed_Launch",
+  "sent_prospects": {
+    "velocedigital.com": {
+      "company": "Veloce Digital Agency",
+      "email": "marcus@velocedigital.com",
+      "sent_at": "2026-09-08T07:05:23.576937+00:00",
+      "touch": 1,
+      "dry_run": false
+    },
+    "scaleforge.io": {
+      "company": "ScaleForge Growth Partners",
+      "email": "sarah@scaleforge.io",
+      "sent_at": "2026-09-08T07:05:51.535286+00:00",
+      "touch": 1,
+      "dry_run": false
+    },
+    "nexusweb.dev": {
+      "company": "Nexus Web Solutions",
+      "email": "david@nexusweb.dev",
+      "sent_at": "2026-09-08T07:06:24.862745+00:00",
+      "touch": 1,
+      "dry_run": false
+    },
+    "hyperionadvisory.com": {
+      "company": "Hyperion Cloud Advisory",
+      "email": "elena@hyperionadvisory.com",
+      "sent_at": "2026-09-08T07:06:57.769075+00:00",
+      "touch": 1,
+      "dry_run": false
+    },
+    "omnireachmedia.com": {
+      "company": "OmniReach Media",
+      "email": "brian@omnireachmedia.com",
+      "sent_at": "2026-09-08T07:07:21.254302+00:00",
+      "touch": 1,
+      "dry_run": false
+    }
+  },
+  "stats": {
+    "total_sent": 5,
+    "total_queued": 0
+  }
+}
